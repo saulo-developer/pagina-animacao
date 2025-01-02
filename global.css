@@ -1,0 +1,87 @@
+*, *::after, *::before {
+    /*overflow: hidden; /* Esconde todas as barras de rolagem */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+
+
+
+/* Pink */
+
+--pink-light: #C59DD2;
+--pink-base: #9547A5;
+--pink-dark: #7D298A;
+--pink-low: #3F0F41;
+
+
+/* Blue */
+
+--blue-light: #73b6d2;
+--blue-base: #358BB9;
+--blue-mind: #2374a4;
+--blue-dark: #144a72;
+--blue-low: #08233c;
+
+
+/* Shape */
+
+--shape-stroke: #002347;
+--shape-hover: #001933;
+--shape-base: #000F1F;
+--shape-background: #00050A;
+
+/* Text */
+
+--text-title: #F8FBFB;
+--text-body: #E2E7E9;
+--text-label: #BAC6C9;
+
+
+/* typography */
+:root {
+    --font-family: "Raleway";
+    
+    /* titles */
+    --title-lg: 48px/normal var(--font-family);
+    --title-md: 40px/normal bold var(--font-family); 
+    --title-sm: 32px/normal bold var(--font-family);
+    --title-xs: 16px/normal bold var(--font-family);
+   
+    /* subtitle */
+    --subtitle: 32px/200% medium var(--font-family);
+   
+    /* body text */
+    --body-lg: 20px/140% var(--font-family);
+    --body-md: 16px/140% var(--font-family);
+    --body-sm: 14px/140% var(--font-family);
+    --body-xs: 12px/140% var(--font-family);
+   
+    /* components */
+    --button: 14px/normal medium var(--font-family);
+    --tag: 10px/normal bold var(--font-family);
+    --tag-spacing: letter-spacing: 0.05em;
+    text-transform: uppercase;
+   }
+
+
+
+
+
+
+
+
+
+
+--font-family: "Open Sans";
+--text-md: 14px/auto var(--font-family);
+--text-sm: 14px/auto var(--font-family);
+--text-xs: 12/auto var(--font-family);
+
+
+    
+}
