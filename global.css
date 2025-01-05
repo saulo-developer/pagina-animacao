@@ -43,42 +43,30 @@
 
 
 /* typography */
-:root {
-    --font-family: "Raleway";
+
+    --font-family: "Raleway", sans-serif;
     
     /* titles */
     --title-lg: 48px/normal var(--font-family);
-    --title-md: 40px/normal bold var(--font-family); 
+    --title-md: 40px/normal bold var(--font-family);
     --title-sm: 32px/normal bold var(--font-family);
     --title-xs: 16px/normal bold var(--font-family);
-   
+    
     /* subtitle */
     --subtitle: 32px/200% medium var(--font-family);
-   
+    
     /* body text */
     --body-lg: 20px/140% var(--font-family);
     --body-md: 16px/140% var(--font-family);
     --body-sm: 14px/140% var(--font-family);
     --body-xs: 12px/140% var(--font-family);
-   
+    
     /* components */
     --button: 14px/normal medium var(--font-family);
     --tag: 10px/normal bold var(--font-family);
-    --tag-spacing: letter-spacing: 0.05em;
+    --tag-spacing: 0.05em;
     text-transform: uppercase;
-   }
-
-
-
-
-
-
-
-
-
-
 }
-
 body {
     background: url('assets/icons/background-1.png') no-repeat top;
     background-size: 100% auto;
