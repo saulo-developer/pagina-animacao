@@ -67,7 +67,16 @@
     --tag-spacing: 0.05em;
     text-transform: uppercase;
 }
+
+
+/*
 body {
+
+
+
+
+
+
     background: url('assets/icons/background-1.png') no-repeat top;
     background-size: 100% auto;
    
@@ -75,3 +84,10 @@ body {
  
   
 }
+    */
+
+    body {
+        background: url('assets/images/background-1.png') repeat top;
+        margin: 0;
+        padding: 0;
+      }
