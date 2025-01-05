@@ -1,5 +1,5 @@
-*, *::after, *::before {
-    /*overflow: hidden; /* Esconde todas as barras de rolagem */
+* {
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -77,11 +77,13 @@
 
 
 
---font-family: "Open Sans";
---text-md: 14px/auto var(--font-family);
---text-sm: 14px/auto var(--font-family);
---text-xs: 12/auto var(--font-family);
+}
 
-
-    
+body {
+    background: url('assets/icons/background-1.png') no-repeat top;
+    background-size: 100% auto;
+   
+  
+ 
+  
 }

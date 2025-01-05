@@ -1,0 +1,49 @@
+nav {
+    margin-top: 2rem;
+    margin-left: 11rem;
+    
+    margin-right: 11rem;
+    display: flex;  /* Para colocar logo e botão em linha */
+    justify-content: space-between;  /* Espaço entre os elementos */
+    align-items: center;  /* Alinhar verticalmente no centro */
+    padding: 20px;  /* Adicionando um padding para um espaçamento */
+    
+  }
+
+
+  .button-1 {
+    background-color: var(--pink-dark);
+    padding: 10px 20px;  /* Tamanho do botão */
+    
+    color: white;  /* Cor do texto */
+    border: none;  /* Remover borda */
+    border-radius: 5px;  /* Bordas arredondadas */
+    cursor: pointer;  /* Cursor ao passar o mouse */
+    
+  }
+
+
+
+  .imagem-transition {
+
+margin-top: 10rem;
+
+    margin-left: 15rem;
+  }
+ /* div > .imagem-transition {
+
+
+    animation: fade linear;
+  }
+
+  @keyframes fade {
+
+    0% {
+
+      opacity: 0;
+      scale: .8;
+
+    }
+
+    
+  } */
