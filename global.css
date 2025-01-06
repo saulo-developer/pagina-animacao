@@ -69,17 +69,16 @@
 }
 
 
-      body {
-   
-         
-          margin: 0;
-          padding: 0;
-          min-height: 100vh;
-          background: linear-gradient(180deg, 
-          #3F0F41,/* tom roxo escuro do topo */
-              #2D0A31 50%,  
-              #2D0A31 100%,          /* roxo médio */
-              #002347 100%      /* tom lilás do rodapé */
-          )
-       
-      }
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(180deg, 
+    #1e011f, 
+      #1e011f 100%,
+      
+      #002347 50%
+    );
+  }
+  
+      

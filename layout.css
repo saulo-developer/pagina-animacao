@@ -47,7 +47,7 @@ margin-bottom: 5em;
     margin-top: -10rem;
     width: 100%;
     height: 100vh; /* usando vh ao invés de % para garantir altura total */
-    background-image: url('./seu-caminho-da-imagem.png');
+  
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,7 +58,7 @@ margin-bottom: 5em;
 
   .imagem-transition-2 {
 
-background-image: url(./assets/icons/background-2.png);
+
 
   }
   .imagem-transition-3 {
