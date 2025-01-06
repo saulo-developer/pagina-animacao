@@ -23,15 +23,23 @@ nav {
   }
 
   h1 {
-    margin-top: 10rem;
+    margin-top: 1000000px;
     font-size: 40px;
     color: azure;
     font-family: Arial, sans-serif;
     text-transform: lowercase;
+    text-align: center;
+ 
+    margin: 0 auto;    /* centraliza o container */
+    padding: 0 20px;   /* espaçamento lateral */
+margin-bottom: 5em;
   
     &::first-letter {
       text-transform: uppercase;
     }
+
+    
+
   }
 
   .imagem-transition {
@@ -45,10 +53,15 @@ nav {
     background-repeat: no-repeat;
     z-index: -1; /* removido 'em' pois z-index não usa unidades */
     position: relative; /* ou absolute/fixed dependendo do seu layout */
+    margin-bottom: 17rem;
   }
 
-  
   .imagem-transition-2 {
+
+background-image: url(./assets/icons/background-2.png);
+
+  }
+  .imagem-transition-3 {
 
     font-size: medium;
     margin-top: 10rem;
@@ -59,9 +72,23 @@ nav {
 
 
   .titulo-2 {
+    margin-top: 1000000px;
+    font-size: 40px;
+    color: azure;
+    font-family: Arial, sans-serif;
+    text-transform: lowercase;
+    text-align: center;
+ 
+    margin: 0 auto;    /* centraliza o container */
+    padding: 0 20px;   /* espaçamento lateral */
+    margin-bottom: 1px;
+  
+    &::first-letter {
+      text-transform: uppercase;
+    }
 
 
-    margin-left: 47rem;
+   
   }
 
   h2 {
@@ -71,12 +98,18 @@ nav {
     color: azure;
     font-family: Arial, sans-serif;
     text-transform: lowercase;
+    text-align: center;
+    max-width: 800px;  /* limita a largura do texto */
+    margin: 0 auto;    /* centraliza o container */
+    padding: 0 20px;   /* espaçamento lateral */
+
   
     &::first-letter {
       text-transform: uppercase;
     }
-  }
+  
 
+  }
 
 
 
@@ -85,20 +118,3 @@ nav {
 
   
 
- /* div > .imagem-transition {
-
-
-    animation: fade linear;
-  }
-
-  @keyframes fade {
-
-    0% {
-
-      opacity: 0;
-      scale: .8;
-
-    }
-
-    
-  } */

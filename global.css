@@ -69,38 +69,17 @@
 }
 
 
-/*
-body {
-
-
-
-
-
-
-    background: url('assets/icons/background-1.png') no-repeat top;
-    background-size: 100% auto;
-   
-  
- 
-  
-}
-    */
-
-    /*body {
-        background: url('assets/images/background-1.png') repeat top;
-        margin: 0;
-        padding: 0;
-      }*/
-
-
-
-   
-
       body {
-        background-image: 
-          url(./assets/icons/background-1.png),
-          url(./assets/icons/background-1.png),
-          url(./assets/icons/background-1.png);
+   
          
+          margin: 0;
+          padding: 0;
+          min-height: 100vh;
+          background: linear-gradient(180deg, 
+          #3F0F41,/* tom roxo escuro do topo */
+              #2D0A31 50%,  
+              #2D0A31 100%,          /* roxo médio */
+              #002347 100%      /* tom lilás do rodapé */
+          )
        
       }
