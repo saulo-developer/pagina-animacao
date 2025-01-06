@@ -11,17 +11,21 @@ nav {
   }
 
 
-  .button-1 {
-    background-color: var(--pink-dark);
-    padding: 10px 20px;  /* Tamanho do botão */
-    
-    color: white;  /* Cor do texto */
-    border: none;  /* Remover borda */
-    border-radius: 5px;  /* Bordas arredondadas */
-    cursor: pointer;  /* Cursor ao passar o mouse */
-    
-  }
 
+    .button-1 {
+      background-color: var(--pink-dark);  /* Cor de fundo inicial */
+      padding: 10px 20px;  /* Tamanho do botão */
+      color: white;  /* Cor do texto */
+      border: none;  /* Remover borda */
+      border-radius: 5px;  /* Bordas arredondadas */
+      cursor: pointer;  /* Cursor ao passar o mouse */
+      transition: background-color 0.3s ease; /* Transição suave de cor */
+      
+      &:hover {
+        background-color: var(--pink-low);
+        color: #fff;  /* Cor do texto permanece branca no hover */
+      }
+  }
   h1 {
     margin-top: 1000000px;
     font-size: 40px;
