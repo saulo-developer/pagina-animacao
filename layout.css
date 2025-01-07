@@ -70,7 +70,7 @@ margin-bottom: 5em;
       }
 
 
-    .imagem-transition-3 {
+    .assinatura-imagem-transition-3 {
       margin-top: 80rem;
     margin-left: 52rem;
      
@@ -80,19 +80,11 @@ margin-bottom: 5em;
       .imagem-transition-4 {
         
          margin-top: 40rem;
-         margin-left: 200px;
-         
-         
-         background-size: 100% 100%;
-         background-position: center;
-         background-repeat: no-repeat;
-         z-index: -1; /* removido 'em' pois z-index não usa unidades */
-         position: relative; /* ou absolute/fixed dependendo do seu layout */
-         margin-bottom: 17rem;
-      
-      }
- 
     
+       
+      } 
+
+     
   
 
   .titulo-2 {
@@ -127,7 +119,7 @@ margin-bottom: 5em;
  
     padding: 0 20px;   /* espaçamento lateral */
     margin-bottom: 1px;
-    margin-left: -800px;
+    margin-left: -250px;
     &::first-letter {
       text-transform: uppercase;
     }
@@ -140,7 +132,7 @@ margin-bottom: 5em;
     color: azure;
     font-family: Arial, sans-serif;
     text-transform: lowercase;
-    margin-left: -800px;
+    margin-left: -250px;
    
     padding: 0 20px;   /* espaçamento lateral */
     margin-bottom: 10rem;
