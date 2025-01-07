@@ -142,6 +142,27 @@ margin-bottom: 5em;
     }
   }
 
+  .titulo-5 {
+
+    font-size: 25px;
+    color: azure;
+    font-family: Arial, sans-serif;
+    text-transform: lowercase;
+    margin-left: 43rem;
+   
+ 
+    margin-bottom: 10rem;
+   
+    &::first-letter {
+      text-transform: uppercase;
+    }
+
+    
+  }
+
+
+  
+
 
   h2 {
     margin-left: 44rem;
