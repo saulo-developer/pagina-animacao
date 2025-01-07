@@ -60,12 +60,8 @@ margin-bottom: 5em;
     margin-bottom: 17rem;
   }
 
+
   .imagem-transition-2 {
-
-
-
-  }
-  .imagem-transition-3 {
 
     font-size: medium;
     margin-top: 10rem;
@@ -74,6 +70,30 @@ margin-bottom: 5em;
       }
 
 
+    .imagem-transition-3 {
+      margin-top: 80rem;
+    margin-left: 52rem;
+     
+    }
+
+     
+      .imagem-transition-4 {
+        
+         margin-top: 40rem;
+         margin-left: 200px;
+         
+         
+         background-size: 100% 100%;
+         background-position: center;
+         background-repeat: no-repeat;
+         z-index: -1; /* removido 'em' pois z-index não usa unidades */
+         position: relative; /* ou absolute/fixed dependendo do seu layout */
+         margin-bottom: 17rem;
+      
+      }
+ 
+    
+  
 
   .titulo-2 {
     margin-top: 1000000px;
@@ -94,6 +114,42 @@ margin-bottom: 5em;
 
    
   }
+
+  .titulo-3{
+
+   
+    font-size: 40px;
+    color: azure;
+    font-family: Arial, sans-serif;
+    text-transform: lowercase;
+   
+ 
+ 
+    padding: 0 20px;   /* espaçamento lateral */
+    margin-bottom: 1px;
+    margin-left: -800px;
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+
+
+  
+  .titulo-4{
+    font-size: 40px;
+    color: azure;
+    font-family: Arial, sans-serif;
+    text-transform: lowercase;
+    margin-left: -800px;
+   
+    padding: 0 20px;   /* espaçamento lateral */
+    margin-bottom: 10rem;
+   
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+
 
   h2 {
     margin-left: 44rem;
