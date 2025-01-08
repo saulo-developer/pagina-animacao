@@ -58,6 +58,49 @@ margin-bottom: 5em;
     z-index: -1; /* removido 'em' pois z-index não usa unidades */
     position: relative; /* ou absolute/fixed dependendo do seu layout */
     margin-bottom: 17rem;
+
+  }
+
+
+  .cool-effects-1 {
+
+    margin-left: 870px;
+  }
+
+  .cool-effects-2 {
+  margin-top: -400px;
+
+
+  }
+
+  .cool-effects-3 {
+
+    margin-left: 1750px;
+    margin-top: -90px;
+  }
+  @keyframes appearing {
+
+
+     0% {
+
+      transform: scale(1)
+    }; 
+
+
+
+
+    50% {
+
+      transform: scale(1.1);
+    }
+
+
+    100% {
+      transform: scale(1);
+    }
+
+
+
   }
 
 
