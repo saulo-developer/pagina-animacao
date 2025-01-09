@@ -68,7 +68,7 @@ margin-bottom: 5em;
   }
 
   .cool-effects-2 {
-  margin-top: -400px;
+  margin-top: -100px;
 
 
   }
@@ -76,8 +76,10 @@ margin-bottom: 5em;
   .cool-effects-3 {
 
     margin-left: 1750px;
-    margin-top: -90px;
+    margin-top: -100px;
   }
+
+
   @keyframes appearing {
 
 
@@ -104,28 +106,65 @@ margin-bottom: 5em;
   }
 
 
-  /*.icone-1 {
-
-margin-left: 670px;
 
 
-
-  }*/
+  /* Seção principal */
+.icone-1 {
   
-  .estrela-1 {
+  display: flex; /* Torna o contêiner flexível */
+  flex-direction: column; /* Organiza os itens verticalmente */
+  align-items: center; /* Centraliza o conteúdo horizontalmente */
+  justify-content: center; /* Centraliza o conteúdo verticalmente */
+  text-align: center; /* Garante que o texto dentro dos elementos fique centralizado */
+  min-height: 100vh; /* Centraliza verticalmente em toda a altura da tela */
 
-    margin-left: 700px;
-    margin-top: -1000px;
-  }
+}
+
+/* Conteúdo principal */
+.content {
+ 
+  display: flex; /* Flex para organizar estrelas e texto em linha */
+ 
+
+}
+
+/* Texto */
+.text-content {
+  text-align: center; /* Centraliza o texto internamente */
+}
+
+.titulo-2 {
+  font-size: 24px;
+  margin: 0;
+  color: white;
+}
+
+.titulo-5 {
+  font-size: 16px;
+  margin-right: 700px;
+  color: #d3d3d3;
+  
+}
+
+.estrela-1 {
+
+ 
+  margin-right: -700px;
+  padding: -100px;
+
+}
+
+
+
+.estrela-2 {
+
+  margin-left: -710px;
+  padding: -100px;
 
 
 
 
-   
-  .estrela-2 {
-
-    margin-left: 1134px;
-  }
+}
   .aprensentacao {
 
     margin-top: 700rem;
