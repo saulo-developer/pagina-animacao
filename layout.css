@@ -10,7 +10,46 @@ nav {
     
   }
 
+/* Base heading styles */
+h1 {
+  color: var(--text-light);
+}
 
+/* Animated bold text within heading */
+h1 > b {
+  color: var(--text-light);
+  animation: fadeToBlue 2s ease-in-out forwards;
+  opacity: 0; /* Start fully transparent */
+  display: inline-block; /* Enables transform animations */
+  position: relative; /* For potential ::after effects */
+}
+
+/* Enhanced keyframe animation */
+@keyframes fadeToBlue {
+  0% {
+    color: rgb(236, 226, 226);
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  
+  50% {
+    color: var(--blue-base);
+    opacity: 0.5;
+    transform: translateY(10px) scale(0.98);
+  }
+  
+  100% {
+    color: var(--blue-base);
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Optional: Add hover effect */
+h1 > b:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.05);
+}
 
     .button-1 {
       background-color: var(--pink-dark);  /* Cor de fundo inicial */
@@ -65,11 +104,15 @@ margin-bottom: 5em;
   .cool-effects-1 {
 
     margin-left: 870px;
+    animation: fadeToBlue 1s ease-in-out forwards;
+    
   }
 
   .cool-effects-2 {
   margin-top: -100px;
 
+  animation: fadeToBlue 8s ease-in-out forwards;
+ 
 
   }
 
@@ -77,34 +120,9 @@ margin-bottom: 5em;
 
     margin-left: 1750px;
     margin-top: -100px;
+    animation: fadeToBlue 15s ease-in-out forwards;
+ 
   }
-
-
-  @keyframes appearing {
-
-
-     0% {
-
-      transform: scale(1)
-    }; 
-
-
-
-
-    50% {
-
-      transform: scale(1.1);
-    }
-
-
-    100% {
-      transform: scale(1);
-    }
-
-
-
-  }
-
 
 
 
