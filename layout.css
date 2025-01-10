@@ -90,6 +90,41 @@ margin-bottom: 5em;
 
   }
 
+
+  .imagem-transition-2 {
+    position: relative;
+    width: fit-content;
+}
+
+.main-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para os spans dos bookmarks */
+.bookmark-yellow,
+.bookmark-purple {
+    position: absolute;
+    height: 90%;
+    top: 10%;
+}
+
+.bookmark-yellow {
+    right: -200px;
+}
+
+.bookmark-purple {
+    right: -370px;
+}
+
+/* Garantir que as imagens dentro dos spans ocupem toda a altura */
+.bookmark-yellow img,
+.bookmark-purple img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
   .imagem-transition {
    
     margin-top: -10rem;
