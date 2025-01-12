@@ -90,6 +90,37 @@ margin-bottom: 5em;
 
   }
 
+  h4 {
+  
+    font-size: 40px;
+    color: azure;
+    font-family: Arial, sans-serif;
+    text-transform: lowercase;
+    text-align: center;
+ 
+    
+    &::first-letter {
+      text-transform: uppercase;
+    }
+
+  }
+
+  h5 {
+
+    font-size: 24px;
+    color: azure;
+    font-family: Arial, sans-serif;
+    text-transform: lowercase;
+    text-align: center;
+ 
+    
+    &::first-letter {
+      text-transform: uppercase;
+    }
+
+
+  }
+
 
   .imagem-transition-2 {
     position: relative;
