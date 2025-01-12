@@ -139,8 +139,30 @@ margin-bottom: 5em;
     z-index: -1; /* removido 'em' pois z-index não usa unidades */
     position: relative; /* ou absolute/fixed dependendo do seu layout */
     margin-bottom: 17rem;
-
+    animation: appearing 2s ease-in-out forwards;
+   
   }
+
+  /* Enhanced keyframe animation */
+@keyframes appearing {
+  0% {
+    
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  
+  50% {
+    
+    opacity: 0.5;
+    transform: translateY(10px) scale(0.98);
+  }
+  
+  100% {
+    
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
 
 
   .imagem-aleatoria {
